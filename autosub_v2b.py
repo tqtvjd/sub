@@ -44,6 +44,6 @@ print(f'{times} accounts created for each site. Subscription URLs:\n----------')
 print(*subs, sep='\n')
 
 with open('subs.txt', 'w') as fil:
-    print(f'{datetime.datetime.now().isoformat()}\n{times} accounts created. Subscription URLs:\n----------', file=fil)
+    print(f'{datetime.datetime.now().isoformat()}\n{times} accounts created for each site. Subscription URLs:\n----------', file=fil)
     print(*subs, sep='\n', file=fil)
 
