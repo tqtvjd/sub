@@ -39,7 +39,7 @@ while i < times:
                 'invite_code': '',
             'email_code': ''}
     try:
-        response = requests.post(home_url+V2B_REG_REL_URL, json=form_data, proxies=proxies)
+        response = requests.post(home_url+V2B_REG_REL_URL, json=form_data)
     except:
         continue
     # print(response.text)
@@ -60,7 +60,3 @@ with open('subs.txt', 'w') as fil:
     print(f'{datetime.datetime.now().isoformat()}\n{times} accounts created. Subscription URLs:\n----------', file=fil)
     print(*subs, sep='\n', file=fil)
 
-repo = git.Repo('.').git
-repo.add('--all')
-repo.commit('-m update')
-repo.push()
