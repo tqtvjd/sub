@@ -1,4 +1,3 @@
-import git
 import requests
 import random, string
 import datetime
