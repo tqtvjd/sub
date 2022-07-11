@@ -26,7 +26,7 @@ for current_url in home_urls:
                     'invite_code': '',
                 'email_code': ''}
         try:
-            response = requests.post(home_url+V2B_REG_REL_URL, json=form_data)
+            response = requests.post(current_url+V2B_REG_REL_URL, json=form_data)
         except:
             continue
         # print(response.text)
