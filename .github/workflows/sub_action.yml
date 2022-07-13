@@ -32,11 +32,11 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Fetch Subscriptions
       run: |
-        python autosub_v2b.py
+        python autosub.py
     - name: Commit
       run: |
-        git config --global user.email ariel@arielherself.xyz
-        git config --global user.name ariel
+        git config --global user.email h.potter@g.c
+        git config --global user.name HarryPotter
         git add .
         git commit -m "scheduled update"
         git pull --rebase
