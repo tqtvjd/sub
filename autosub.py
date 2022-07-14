@@ -37,3 +37,9 @@ print(f'content: {content.text}')
 with open('nodes.txt', 'w') as fil:
     fil.write(content.text)
 
+# 订阅获取成功以后，刷新CDN缓存
+try:
+    requests.get("https://purge.jsdelivr.net/gh/tqtvjd/sub@main/nodes.txt")
+except Exception as e:
+    print(e)
+
