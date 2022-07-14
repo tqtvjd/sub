@@ -1,3 +1,8 @@
+# Forked from [arielherself/autosub](https://github.com/arielherself/autosub)
+
+* 修改源码，自动将订阅内容获取后写入文件，订阅文件即可直接使用，不用频繁更改订阅链接
+* 将每小时更新一次，改为每12小时更新1次
+
 # V2Board AutoSub
 
 本仓库通过GitHub Actions自动于指定V2Board站点注册账户并获取试用订阅。
