@@ -1,7 +1,7 @@
 # Forked from [arielherself/autosub](https://github.com/arielherself/autosub)
 
 * 修改源码，自动将订阅内容获取后写入文件，订阅文件即可直接使用，不用频繁更改订阅链接
-* 将每小时更新一次，改为每12小时更新1次
+* 将 1h 更新一次，改为每6小时更新1次
 
 # V2Board AutoSub
 
@@ -9,9 +9,11 @@
 
 ## 使用本仓库抓取的订阅
 
-订阅每小时更新： https://raw.githubusercontent.com/arielherself/autosub/main/subs.txt
+订阅每小时更新（手动复制单条订阅）： https://raw.githubusercontent.com/arielherself/autosub/main/subs.txt
 
 请注意，这个链接**不是一个订阅链接**，而是多个订阅链接的集合。请用浏览器打开，然后复制里面的订阅链接。
+
+直接订阅地址：https://cdn.jsdelivr.net/gh/tqtvjd/sub@main/nodes.txt
 
 *受资源配额影响，在GitHub Actions设置的定时任务不一定会准时执行。*
 

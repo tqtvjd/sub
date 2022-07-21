@@ -42,4 +42,3 @@ try:
     requests.get("https://purge.jsdelivr.net/gh/tqtvjd/sub@main/nodes.txt")
 except Exception as e:
     print(e)
-
