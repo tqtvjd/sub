@@ -15,3 +15,9 @@ http://whk.life/api/v1/client/subscribe?token=be1c7aa745a084a7c4d7f3652a67ee07
 account: 545585696@qq.com
 password: EVXv5X1FnBdw
 http://whk.life/api/v1/client/subscribe?token=c6f7da486f03baf0aae2e5b05d19255a
+2022-07-27T05:36:32.789741
+ accounts created for each site. Subscription URLs:
+----------
+account: 8098280939@gmail.com
+password: UpULXeSSggZY
+http://whk.life/api/v1/client/subscribe?token=0e1775e1ea71492e82fe18d39836a627
