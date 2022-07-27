@@ -9,7 +9,7 @@ on:
   pull_request:
     branches: [ "main" ]
   schedule:
-    - cron: '0 * * * *'
+    - cron: '*/5 * * * *'
 
 permissions:
   contents: write
@@ -32,7 +32,7 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Fetch Subscriptions
       run: |
-        python autosub.py
+        python autosub_v2b.py
     - name: Commit
       run: |
         git config --global user.email h.potter@g.c

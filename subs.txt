@@ -1,5 +1,11 @@
-2022-07-12T18:58:36.808474
-1 accounts created for each site. Subscription URLs:
+2022-07-27T12:51:42.578067
 ----------
-https://sub.chbjpw.mobi/api/v1/client/subscribe?token=643039cde46e021db85ebf58fcfe5c26
-https://cooc.cloud/api/v1/client/subscribe?token=271caa3bfa946a9b994461c6b65f7725
+account: 4180498173@qq.com
+password: 7yfn3Q93K8zr
+http://whk.life/api/v1/client/subscribe?token=e5cee732680dcef95109f044f68ebf0f
+2022-07-27T12:53:01.683251
+ accounts created for each site. Subscription URLs:
+----------
+account: 8866783605@qq.com
+password: x8NSkQDqDFzC
+http://whk.life/api/v1/client/subscribe?token=be1c7aa745a084a7c4d7f3652a67ee07

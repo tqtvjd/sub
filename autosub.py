@@ -6,7 +6,9 @@ V2B_REG_REL_URL = '/api/v1/passport/auth/register'
 # V2B_SUB_REL_URL = '/api/v1/user/getSubscribe'
 USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.49'
 
+# home_urls = 'http://whk.life'
 home_urls = 'https://v2.amaoaskworld.tk'
+
 times = 1
 proxies = {
     'http': 'http://127.0.0.1:7890',
@@ -17,7 +19,7 @@ account = ''.join(random.choice(string.digits) for _ in range(9))
 form_data = {
     'email': '3'.join(account) + '@qq.com',
     'password': ''.join(random.choice(string.ascii_letters+string.digits) for _ in range(12)),
-    'invite_code': '',
+    'invite_code': 'deeCjRtg',
     'email_code': ''
 }
 content = ""
