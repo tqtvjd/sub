@@ -35,8 +35,8 @@ jobs:
         python autosub.py
     - name: Commit
       run: |
-        git config --global user.email h.potter@g.c
-        git config --global user.name HarryPotter
+        git config --global user.email tqtvjd@gmail.com
+        git config --global user.name tqtvjd
         git add .
         git commit -m "scheduled update"
         git pull --rebase
