@@ -7,7 +7,8 @@ V2B_REG_REL_URL = '/api/v1/passport/auth/register'
 USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.49'
 
 # home_urls = 'http://whk.life'
-home_urls = 'https://v2board.co'
+# home_urls = 'https://v2board.co'
+home_urls = 'https://daydaygeek.icu'
 
 times = 1
 proxies = {
